@@ -1,0 +1,8 @@
+exported/DetectionModel.onnx
+images/output
+pre-trained-models/
+venv_py_env/
+commands.txt
+deepsparse.zip
+Raspberry-deployment-details.txt
+run_python.sh
