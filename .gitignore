@@ -7,6 +7,3 @@ deepsparse.zip
 Raspberry-deployment-details.txt
 run_python.sh
 manual-sparsify.py
-models/yolov8n_*
-models/yolov8s*
-models/yolov8m*
