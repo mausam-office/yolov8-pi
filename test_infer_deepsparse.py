@@ -20,9 +20,10 @@ yolo_pipeline = Pipeline.create(
 
 # images = [f'{input_dir}/00021_road_birds.jpg', f'{input_dir}/000128_bird_small.jpg']
 images = os.listdir(input_dir)
+images = [os.path.join(input_dir, img_name) for img_name in images]
 
 fps = 0
-iter_num = 20
+iter_num = len(images)
 total_duration = 0
 
 for idx in range(iter_num):
