@@ -1,6 +1,10 @@
 exported/DetectionModel.onnx
 images/output
-pre-trained-models/
+pre-trained-models/yolov8n-saved-model
+pre-trained-models/yolov8n.onnx
+pre-trained-models/yolov8n.tflite
+pre-trained-models/yolov8m*
+pre-trained-models/yolov8s*
 venv_py_env/
 commands.txt
 deepsparse.zip
@@ -9,3 +13,7 @@ run_python.sh
 manual-sparsify.py
 models/
 test_infer_ort.py
+data/
+export_to_onnx.py
+export_to_tflite.py
+tflite_metadata_writer.py
