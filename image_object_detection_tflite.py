@@ -121,6 +121,7 @@ def detect(img_path, conf=None, iou=None):
 def detection(img_path, mode=None, save_output=None, show_output=None, wait=None):
     start = time.time()
     for _ in range(50):
+        start_iter = time.time()
         if mode != 'image': 
             wait = False
         boxes, scores, class_ids, input_shape = detect(img_path, conf=conf_thresh, iou=iou_thresh)
@@ -140,6 +141,7 @@ def detection(img_path, mode=None, save_output=None, show_output=None, wait=None
             cv2.waitKey(9000)
         else:
             cv2.waitKey(1)
+        print(f"iter FPS: {1/(time.time()-start_iter)}")
     print(f"Average FPS: {50/(time.time()-start)}")
 
 
