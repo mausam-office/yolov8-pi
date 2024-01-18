@@ -7,3 +7,5 @@ deepsparse.zip
 Raspberry-deployment-details.txt
 run_python.sh
 manual-sparsify.py
+models/
+test_infer_ort.py

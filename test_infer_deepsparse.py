@@ -9,7 +9,7 @@ input_dir = './images/samples'
 output_dir = './images/output'
 os.makedirs(output_dir, exist_ok=True)
 
-model_path = './exported/deployment/DetectionModel.onnx'
+model_path = './exported/deployment/model.onnx'
 
 yolo_pipeline = Pipeline.create(
     task="yolov8",
