@@ -1,6 +1,6 @@
 exported/DetectionModel.onnx
 images/output
-pre-trained-models/yolov8n-saved-model
+pre-trained-models/yolov8n-saved-model/
 pre-trained-models/yolov8n.onnx
 pre-trained-models/yolov8n.tflite
 pre-trained-models/yolov8m*
