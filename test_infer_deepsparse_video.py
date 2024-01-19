@@ -51,7 +51,7 @@ while cond:
     count += 1
     duration = (time.perf_counter()-begin)
     fps = 1 / duration
-    
+    print(f'iter fps: {fps}')
     total_duration += duration
     
 print(f"Avg fps {count/total_duration}")

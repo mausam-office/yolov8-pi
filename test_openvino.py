@@ -306,7 +306,7 @@ if __name__ == "__main__":
     # det_model_path = './models/bird/best_openvino_int8_model/best.xml'
     # det_model_path = './models/bird/best_openvino_model/best.xml'
     # det_model_path = './models/bird/best_openvino_int8_model/best.xml'
-    det_model_path = './models/pre-trained-models/yolov8n_openvino_model_int8/best.xml'
+    det_model_path = './pre-trained-models/yolov8n_openvino_model/yolov8n.xml'
 
     # device = get_device()
     device = 'CPU'
